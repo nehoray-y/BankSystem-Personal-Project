@@ -1,0 +1,77 @@
+#FrontEnd
+# Expo
+frontend/banksystem-personal-project-frontend/.expo/
+frontend/banksystem-personal-project-frontend/.expo-shared/
+frontend/banksystem-personal-project-frontend/dist/
+frontend/banksystem-personal-project-frontend/web-build/
+frontend/banksystem-personal-project-frontend/expo-env.d.ts
+
+# Node dependencies
+node_modules/
+**/node_modules/
+frontend/banksystem-personal-project-frontend/node_modules/
+
+# assets
+frontend/banksystem-personal-project-frontend/assets/fonts/
+frontend/banksystem-personal-project-frontend/assets/images/
+frontend/banksystem-personal-project-frontend/*.ttf
+frontend/banksystem-personal-project-frontend/*.png
+frontend/banksystem-personal-project-frontend/*.jpg
+frontend/banksystem-personal-project-frontend/*.ico
+
+# Native
+frontend/banksystem-personal-project-frontend/*.orig.*
+frontend/banksystem-personal-project-frontend/*.jks
+frontend/banksystem-personal-project-frontend/*.p8
+frontend/banksystem-personal-project-frontend/*.p12
+frontend/banksystem-personal-project-frontend/*.key
+frontend/banksystem-personal-project-frontend/*.mobileprovision
+
+# debug
+frontend/banksystem-personal-project-frontend/*.log
+frontend/banksystem-personal-project-frontend/npm-debug.*
+frontend/banksystem-personal-project-frontend/yarn-debug.*
+frontend/banksystem-personal-project-frontend/yarn-error.*
+
+# System files
+frontend/banksystem-personal-project-frontend/.DS_Store
+frontend/banksystem-personal-project-frontend/*.pem
+
+# environment files
+frontend/banksystem-personal-project-frontend/.env*
+frontend/banksystem-personal-project-frontend/application.properties
+
+# leftovers
+frontend/banksystem-personal-project-frontend/*.tsbuildinfo
+frontend/banksystem-personal-project-frontend/app-example
+
+# VS Code settings
+frontend/banksystem-personal-project-frontend/.vscode/
+frontend/banksystem-personal-project-frontend/.react/
+
+# === Frontend: tests and template components ===
+frontend/banksystem-personal-project-frontend/components/__tests__/
+frontend/banksystem-personal-project-frontend/components/__tests__/__snapshots__/
+
+frontend/banksystem-personal-project-frontend/components/HelloWave.tsx
+frontend/banksystem-personal-project-frontend/components/HomeHeader.tsx
+frontend/banksystem-personal-project-frontend/components/ParallaxScrollView.tsx
+frontend/banksystem-personal-project-frontend/components/ThemedText.tsx
+frontend/banksystem-personal-project-frontend/components/ThemedView.tsx
+frontend/banksystem-personal-project-frontend/components/Collapsible.tsx
+frontend/banksystem-personal-project-frontend/components/ExternalLink.tsx
+frontend/banksystem-personal-project-frontend/components/HapticTab.tsx
+
+frontend/banksystem-personal-project-frontend/components/ui/IconSymbol.ios.tsx
+frontend/banksystem-personal-project-frontend/components/ui/IconSymbol.tsx
+frontend/banksystem-personal-project-frontend/components/ui/TabBarBackground.ios.tsx
+frontend/banksystem-personal-project-frontend/components/ui/TabBarBackground.tsx
+
+frontend/banksystem-personal-project-frontend/components/IconSymbol.ios.tsx
+frontend/banksystem-personal-project-frontend/components/IconSymbol.tsx
+frontend/banksystem-personal-project-frontend/components/TabBarBackground.ios.tsx
+frontend/banksystem-personal-project-frontend/components/TabBarBackground.tsx
+
+frontend/banksystem-personal-project-frontend/hooks/useColorScheme.ts
+frontend/banksystem-personal-project-frontend/hooks/useColorScheme.web.ts
+frontend/banksystem-personal-project-frontend/hooks/useThemeColor.ts
