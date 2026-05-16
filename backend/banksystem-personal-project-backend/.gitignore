@@ -31,3 +31,21 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+logs/
+
+### Secrets & Env Variables ###
+.env
+application-secret.properties
+
+### Compiled class files and archives ###
+*.class
+*.jar
+*.war
+*.ear
