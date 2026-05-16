@@ -15,6 +15,7 @@ A comprehensive full-stack banking application demonstrating modern web developm
 
 - **Java & Spring Boot:** The core framework used for building robust and scalable RESTful APIs.
 - **Architecture:** Microservices approach, structured using the Controller-Service-Repository pattern to maintain clean and decoupled code.
+- **Database:** H2 (In-Memory Database for rapid development and testing).
 - **REST API:** Standardized endpoints for seamless communication between the client and server.
 
 **Frontend:**
@@ -26,9 +27,10 @@ A comprehensive full-stack banking application demonstrating modern web developm
 
 The backend is organized to follow best practices in software design:
 
-- **Controllers:** Handling incoming HTTP requests, input validation, and routing them to the appropriate services.
+- **Controllers:** Handling incoming HTTP requests, mapping request payloads to DTOs, validating inputs, and routing them to the appropriate services.
+- **DTOs (Data Transfer Objects):** Used to decouple the database entities from the API layer, encapsulating request/response data to optimize network communication and enforce data privacy.
 - **Services:** Containing the core business logic (e.g., executing the logic for transferring funds and updating balances).
-- **Models/Entities:** Representing the data structures (Users, Accounts, Transactions).
+- **Models/Entities:** Representing the persistent database structures (Users, Accounts, Transactions).
 
 ## 📡 Core API Endpoints
 
@@ -45,7 +47,7 @@ The backend is organized to follow best practices in software design:
 
 - Java 17+
 - Node.js & npm (for the frontend)
-- [Add Database name here, e.g., MySQL / PostgreSQL]
+- **No external database installation required** (Uses H2 In-Memory DB)
 
 ### Installation
 
